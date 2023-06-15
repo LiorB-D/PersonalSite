@@ -8,13 +8,13 @@ export default function HomePage() {
               <a href="https://www.linkedin.com/in/lior-ben-david-8772471b6/">LinkedIn</a>
               <a href="mailto:liorbd@outlook.com">liorbd@outlook.com</a>
           </div>
-          <p className = "siteDescription">I'm current studying Math and Economics at The University of Virginia. Outside of classes, I do freelance software engineering, data analysis, and technical writing for a number of startups.</p>
-          <p className = "siteDescription">This website exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that doesn't hold true, then some reevaluation is neccesary.</p>
-          <p className = "siteDescription">Feel free to email me with writing criticism(Both content and style), freelance requests, or about anything I can serve as a resource for.</p>
+          <p className = "siteDescription">{"I'm current studying Math and Economics at The University of Virginia. Outside of classes, I do freelance software engineering, data analysis, and technical writing for a number of startups."}</p>
+          <p className = "siteDescription">{"This website exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that doesn&apost hold true, then some reevaluation is neccesary."}</p>
+          <p className = "siteDescription">{"Feel free to email me with writing criticism(Both content and style), freelance requests, or about anything I can serve as a resource for."}</p>
 
           <div className="articlesSectionContainer">
           <div className="articlesSection">
-                  <h2>Things I'm Thinking About</h2>
+                  <h2>{"Things I'm Thinking About"}</h2>
                   <ul>
 
                   </ul>
