@@ -1,95 +1,48 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Link from 'next/link'
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+      <div className="homepage">
+          <h1>Lior Ben-David</h1>
+          <div className="contact">
+              <a href="https://www.linkedin.com/in/lior-ben-david-8772471b6/">LinkedIn</a>
+              <a href="mailto:liorbd@outlook.com">liorbd@outlook.com</a>
+          </div>
+          <p className = "siteDescription">I'm current studying Math and Economics at The University of Virginia. Outside of classes, I do freelance software engineering, data analysis, and technical writing for a number of startups.</p>
+          <p className = "siteDescription">This website exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that doesn't hold true, then some reevaluation is neccesary.</p>
+          <p className = "siteDescription">Feel free to email me with writing criticism(Both content and style), freelance requests, or about anything I can serve as a resource for.</p>
+
+          <div className="articlesSectionContainer">
+          <div className="articlesSection">
+                  <h2>Things I'm Thinking About</h2>
+                  <ul>
+
+                  </ul>
+          </div>
+              <div className="articlesSection">
+                  <h2>Math Exposition</h2>
+                  <ul>
+                      <li>
+                          <Link href={"/articles/8dcf23fd3b044fd9ab36d92aada5f88d"}>A Survey of Mathematical Spaces</Link>
+                      </li>
+                      <li>
+                          <Link href={"/articles/d4f0c02cb1f0431aa0ef381c739b830d"}>Simplicial Complexes: Giving Shape to Data</Link>
+                      </li>
+                  </ul>
+              </div>
+              <div className="articlesSection">
+                  <h2>Projects and Dev Logs</h2>
+                  <ul>
+                      <li>
+                          <Link href={"/articles/22e0d206df6046ddbfa517aab17ed970"}>Teaching Cars to Drive with Neuroevolution</Link>
+                      </li>
+                      <li>
+                          <Link href={"/articles/b587cacaa6684c7daaecf04bddde794b"}>Building VR Websites in Javascript</Link>
+                      </li>
+                  </ul>
+              </div>
+
+          </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
   )
 }
