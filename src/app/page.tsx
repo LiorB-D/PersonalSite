@@ -39,7 +39,7 @@ export default function HomePage() {
                   <h2>{"Things I'm Thinking About"}</h2>
                   <ul>
                   <li>
-                    <Link href={"/articles/4abf2949130a4225a5f921d5f318ab3d?"}>A Survey of Mathematical Spaces</Link>
+                    <Link href={"/articles/4abf2949130a4225a5f921d5f318ab3d?"}>In Defense of Hammers In Search of Nails</Link>
                     </li>
                   </ul>
           </div>
