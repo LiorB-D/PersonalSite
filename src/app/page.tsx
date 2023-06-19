@@ -13,14 +13,6 @@ export default function HomePage() {
           <p className = "siteDescription">{"Feel free to email me with writing criticism(Both content and style), freelance requests, or about anything I can serve as a resource for."}</p>
 
           <div className="articlesSectionContainer">
-          <div className="articlesSection">
-                  <h2>{"Things I'm Thinking About"}</h2>
-                  <ul>
-                  <li>
-                    <Link href={"/articles/4abf2949130a4225a5f921d5f318ab3d?"}>A Survey of Mathematical Spaces</Link>
-                    </li>
-                  </ul>
-          </div>
               <div className="articlesSection">
                   <h2>Math Exposition</h2>
                   <ul>
@@ -43,7 +35,14 @@ export default function HomePage() {
                       </li>
                   </ul>
               </div>
-
+          <div className="articlesSection">
+                  <h2>{"Things I'm Thinking About"}</h2>
+                  <ul>
+                  <li>
+                    <Link href={"/articles/4abf2949130a4225a5f921d5f318ab3d?"}>A Survey of Mathematical Spaces</Link>
+                    </li>
+                  </ul>
+          </div>
           </div>
       </div>
   )
