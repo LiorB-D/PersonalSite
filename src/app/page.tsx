@@ -9,9 +9,34 @@ export default function HomePage() {
               <a href="mailto:liorbd@outlook.com">liorbd@outlook.com</a>
           </div>
           <p className = "siteDescription">{"I'm current studying Math and Economics at The University of Virginia. Outside of classes, I do freelance software engineering, data analysis, and technical writing for a number of startups."}</p>
-          <p className = "siteDescription">{"This website exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that doesn&apost hold true, then some reevaluation is neccesary."}</p>
-          <p className = "siteDescription">{"Feel free to email me with writing criticism(Both content and style), freelance requests, or about anything I can serve as a resource for."}</p>
-
+          
+          <p className = "siteDescription">{"Don't hesitate to "}<a href="mailto:liorbd@outlook.com">email me</a>{" with freelancing requests, blog responses, or about anything I can serve as a resource for."}</p>
+          <h1>Freelancing</h1>
+          <p className = "siteDescription">{"Most of my work revolves around building MVPs and helping communicate technical concepts. I love meeting new founders, so if you're not sure whether I'm able to help, please"} <a href="mailto:liorbd@outlook.com">reach out</a>.</p>
+            <div className="articlesSectionContainer">
+            <div className="articlesSection">
+                  <h2>Skills and Technologies</h2>
+                  <ul>
+                    <li>iOS/MacOS Development with Swift</li>
+                    <li>Front-End Web Development with React, Typescript</li>
+                    <li>Mobile Development with React Native</li>
+                    <li>Data Pipelining with Python, NodeJS, Express, SQL</li>
+                    <li>Technical Writing and Developer Marketing</li>
+                  </ul>
+            </div>
+            <div className="articlesSection">
+                  <h2>{"Some Happy Clients"}</h2>
+                  <ul>
+                  <li><a href="https://www.linkedin.com/company/peer-pressur/">PeerPressur</a>; Swift Development</li>
+                  <li><a href="https://www.linkedin.com/company/enki-com/">Enki</a>; Technical Writing</li>
+                    <li><a href="https://www.linkedin.com/company/z-score-sports/">Z-Score Sports</a>; React Development</li>
+                    <li><a href="https://www.linkedin.com/products/snippyly-superflow/">Superflow(YC W22)</a>; Developer Marketing</li>
+                    <li><a href="https://www.linkedin.com/company/codesphere-inc/">Codesphere</a>; Data Pipelining and Analysis</li>
+                  </ul>
+            </div>
+            </div>
+            <h1>Blog</h1>
+            <p className = "siteDescription">{"This blog exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that doesn&apost hold true, then some reevaluation is neccesary."}</p>
           <div className="articlesSectionContainer">
               <div className="articlesSection">
                   <h2>Math Exposition</h2>
