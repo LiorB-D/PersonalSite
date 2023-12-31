@@ -31,6 +31,7 @@ export const NotionPage = ({ recordMap }: NotionPageProps) => {
 
   return (
     <>
+
       <div className="navheader">
         <h2>Lior Ben-David</h2>
         <div className="navheadercontact">
