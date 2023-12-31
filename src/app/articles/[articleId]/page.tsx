@@ -33,12 +33,14 @@ export default async function Page({ params }: { params: { articleId: string } }
   
     const notion = new NotionAPI()
     const recordMap = await notion.getPage(params.articleId)
-
+    const articleTitle = idToTitle(params.articleId)
 
     return (
         <div>
         <head>
-        <title>{idToTitle(params.articleId)}</title>
+        <title>{articleTitle}</title>
+        <meta property="og:title" content={articleTitle}/>
+        <meta property="og:description" content={articleTitle}/>
         <meta name = "image" property="og:image" content="https://cdn.aarp.net/content/dam/aarp/travel/trips/2020/08/1140-sunset-at-shenandoah-national-park.jpg"/>
       </head>
             <NotionPage recordMap = {recordMap}/>

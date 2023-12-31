@@ -9,6 +9,7 @@ export default function HomePage() {
 
   return (
     <div className="homepage">
+
       <h1>Lior Ben-David</h1>
       <div className="contact">
         <a href="https://www.linkedin.com/in/lior-ben-david-8772471b6/">
@@ -42,6 +43,7 @@ export default function HomePage() {
               height="152"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
+              allowFullScreen={false}
             />
           );
         })}
@@ -127,8 +129,8 @@ export default function HomePage() {
               ; Swift Development
             </li>
             <li>
-              <a href="https://compliantguard.com">Compliant Guard</a>;
-              React, Express, Typescript Development
+              <a href="https://compliantguard.com">Compliant Guard</a>; React,
+              Express, Typescript Development
             </li>
             <li>
               <a href="https://www.linkedin.com/company/z-score-sports/">
