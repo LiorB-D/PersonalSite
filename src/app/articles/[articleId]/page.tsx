@@ -54,7 +54,7 @@ export default async function Page({
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:domain"
-          content="liorbd.me/articles/d4f0c02cb1f0431aa0ef381c739b830d"
+          content={`liorbd.me/articles/${params.articleId}`}
         />
         <meta property="twitter:url" content="" />
         <meta
