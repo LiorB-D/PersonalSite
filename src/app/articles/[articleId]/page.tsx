@@ -46,26 +46,33 @@ export default async function Page({
         <meta property="og:title" content={articleTitle} />
         <meta property="og:description" content={articleTitle} />
         <meta
-          name="image"
+          name="og:image"
           property="og:image"
           content="https://cdn.aarp.net/content/dam/aarp/travel/trips/2020/08/1140-sunset-at-shenandoah-national-park.jpg"
         />
-
+        <meta
+          name="twitter:image"
+          property="twitter:image"
+          content="https://cdn.aarp.net/content/dam/aarp/travel/trips/2020/08/1140-sunset-at-shenandoah-national-park.jpg"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:domain"
+          name="twitter:domain"
           content={`liorbd.me/articles/${params.articleId}`}
         />
-        <meta property="twitter:url" content="" />
+        <meta property="twitter:url" name = "twitter:url" content="" />
         <meta
           name="twitter:title"
+          property="twitter:title"
           content={articleTitle}
         />
         <meta
           name="twitter:description"
+          property="twitter:description"
           content={articleTitle}
         />
-        <meta name="twitter:image" content="https://cdn.aarp.net/content/dam/aarp/travel/trips/2020/08/1140-sunset-at-shenandoah-national-park.jpg"/>
+       
       </head>
       <NotionPage recordMap={recordMap} />
     </div>
