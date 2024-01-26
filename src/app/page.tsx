@@ -10,14 +10,14 @@ export default function HomePage() {
 		<div className="homepage">
 			<h1>Lior Ben-David</h1>
 			<div className="contact">
-				<a href="https://www.linkedin.com/in/lior-ben-david-8772471b6/">
-					LinkedIn
+				<a href="https://twitter.com/liorb_d/">
+					Twitter
 				</a>
 				<a href="mailto:liorbd@outlook.com">liorbd@outlook.com</a>
 			</div>
 			<p className="siteDescription">
 				{
-					'I currently split my time between building Gruvian (a native advertising marketplace) , and working as an SWE at Enki (a data science learning platform). I view the world through the lens of an Economist and Mathematician, which is likely apparent through much of my writing.'
+					'I currently split my time between building'} <a href="https://gruvian.com">Gruvian</a> {'(a native advertising marketplace) , and working as an SWE at Enki (a data science learning platform). I view the world through the lens of an Economist and Mathematician, which is likely apparent through much of my writing.'
 				}
 			</p>
 

@@ -37,6 +37,10 @@ export const DEVLOGS: Article[] = [
 
 export const GENBLOGS: Article[] = [
 	{
+		title: "Let Yourself be Embraced",
+		notionId: 'e84cb459d2cf49b8934b765fcbc426f5'
+	},
+	{
 		title: 'The First Ad I Ever Served',
 		notionId: 'd89b4efb5dbc438a9d5a05c4968b5518',
 	},

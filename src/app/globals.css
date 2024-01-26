@@ -1,6 +1,5 @@
 .homepage {
   background-color: #f5f5f5;
-  font-family: Garamond;
   margin: -8px;
   padding-left: 25px;
   padding-right: 25px;
@@ -54,4 +53,8 @@ margin-left: 30px;
     margin-left: 400px;
     margin-right: 400px;
   }
+}
+
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
