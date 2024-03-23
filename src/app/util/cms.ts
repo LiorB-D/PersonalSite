@@ -26,6 +26,10 @@ export const MATH_ARTICLES: Article[] = [
 
 export const DEVLOGS: Article[] = [
 	{
+		title: 'The Line Between Sales and Customer Discovery Only Exists at Scale',
+		notionId: '36eb069cdedf40e6983ca38f341fb172',
+	},
+	{
 		title: 'Teaching Cars to Drive with Neuroevolution',
 		notionId: '22e0d206df6046ddbfa517aab17ed970',
 	},
@@ -37,8 +41,12 @@ export const DEVLOGS: Article[] = [
 
 export const GENBLOGS: Article[] = [
 	{
-		title: "Let Yourself be Embraced",
-		notionId: 'e84cb459d2cf49b8934b765fcbc426f5'
+		title: 'A Short Argument For Faith',
+		notionId: 'fee7bfd395bf43f482ce9cdd9bf6f992',
+	},
+	{
+		title: 'Let Yourself be Embraced',
+		notionId: 'e84cb459d2cf49b8934b765fcbc426f5',
 	},
 	{
 		title: 'The First Ad I Ever Served',
