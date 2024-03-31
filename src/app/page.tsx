@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import {
 	SPOTIFYEMBEDLINKS,
-	MATH_ARTICLES,
-	DEVLOGS,
-	GENBLOGS,
+	ALL_ARTICLES,
 } from './util/cms';
 export default function HomePage() {
 	return (
@@ -52,49 +50,19 @@ export default function HomePage() {
 					'This blog exists for me to improve my writing, highlight things that interest me, and serve as a journal of-sorts. Ideally, the more recent the article is, the higher quality it should be. If that does not hold true, then some reevaluation is neccesary.'
 				}
 			</p>
-			<div className="articlesSectionContainer">
-				<div className="articlesSection">
-					<h2>Math Exposition</h2>
-					<ul>
-						{MATH_ARTICLES.map((article) => {
-							return (
-								<li key={article.notionId}>
-									<Link href={`/articles/${article.notionId}`}>
-										{article.title}
-									</Link>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
-				<div className="articlesSection">
-					<h2>Projects and Dev Logs</h2>
-					<ul>
-						{DEVLOGS.map((devlog) => {
-							return (
-								<li key={devlog.notionId}>
-									<Link href={`/articles/${devlog.notionId}`}>
-										{devlog.title}
-									</Link>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
-				<div className="articlesSection">
-					<h2>{"Things I'm Thinking About"}</h2>
-					<ul>
-						{GENBLOGS.map((article) => {
-							return (
-								<li key={article.notionId}>
-									<Link href={`/articles/${article.notionId}`}>
-										{article.title}
-									</Link>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
+			<div className="articlesSection">
+				<ul>
+					{ALL_ARTICLES.map((article) => {
+						return (
+							<li key={article.notionId}>
+								<Link href={`/articles/${article.notionId}`}>
+									{article.title}
+								</Link>
+							</li>
+						);
+					})}
+				</ul>
+
 			</div>
 			<h1>Freelancing</h1>
 			<p className="siteDescription">
@@ -148,6 +116,6 @@ export default function HomePage() {
 					</ul>
 				</div>
 			</div>
-		</div>
+		</div >
 	);
 }
