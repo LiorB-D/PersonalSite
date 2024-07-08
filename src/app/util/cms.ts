@@ -11,6 +11,10 @@ export const SPOTIFYEMBEDLINKS = [
 
 export const ALL_ARTICLES: Article[] = [
 	{
+		title: 'A Game Theoretic Model of Sales and Marketing',
+		notionId: 'a92d1636a05244428a2c9bd25584d347',
+	},
+	{
 		title: `Learnings from March 24'`,
 		notionId: 'c5c7824629384a358f8a4a4add2181da',
 	},
