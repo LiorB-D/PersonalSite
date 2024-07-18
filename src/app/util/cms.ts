@@ -11,6 +11,10 @@ export const SPOTIFYEMBEDLINKS = [
 
 export const ALL_ARTICLES: Article[] = [
 	{
+		title: 'Handling Database Migrations For Postgres in Node.js',
+		notionId: '9d2e080215c94378a47f0369e993afc9',
+	},
+	{
 		title: 'A Game Theoretic Model of Sales and Marketing',
 		notionId: 'a92d1636a05244428a2c9bd25584d347',
 	},
