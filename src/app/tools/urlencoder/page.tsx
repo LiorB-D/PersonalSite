@@ -1,11 +1,11 @@
 'use client'
-import React, { useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 
 const UrlEncoder = () => {
   const [input, setInput] = useState('');
   const [encoded, setEncoded] = useState('');
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
     const value = e.target.value;
     setInput(value);
     setEncoded(encodeURIComponent(value));
