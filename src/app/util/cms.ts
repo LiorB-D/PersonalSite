@@ -11,6 +11,11 @@ export const SPOTIFYEMBEDLINKS = [
 
 export const ALL_ARTICLES: Article[] = [
 	{
+		title:
+			'Proof simple random walks in 1D return to origin with probability 1',
+		notionId: '110fcff5d69280b5911befccdaa20821',
+	},
+	{
 		title: 'Handling Database Migrations For Postgres in Node.js',
 		notionId: '9d2e080215c94378a47f0369e993afc9',
 	},
